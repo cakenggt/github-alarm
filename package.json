@@ -1,6 +1,7 @@
 {
   "name": "github-alarm",
   "version": "1.0.0",
+  "bin": "index.js",
   "description": "Alarms when there are new notifications on Github",
   "main": "index.js",
   "scripts": {
@@ -9,6 +10,7 @@
   "author": "Alec Lownes",
   "license": "ISC",
   "dependencies": {
-    "@octokit/rest": "^15.2.5"
+    "@octokit/rest": "^15.2.5",
+    "node-notifier": "^5.2.1"
   }
 }
