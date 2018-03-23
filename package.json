@@ -1,0 +1,14 @@
+{
+  "name": "github-alarm",
+  "version": "1.0.0",
+  "description": "Alarms when there are new notifications on Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alec Lownes",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^15.2.5"
+  }
+}
