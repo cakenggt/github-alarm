@@ -15,6 +15,7 @@ var rl = readline.createInterface({
 function callRequest() {
   const newLast = new Date().toISOString();
   octokit.activity.getNotifications({
+    all: true,
     since: last
   })
   .then(result => {
